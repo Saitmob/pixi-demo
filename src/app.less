@@ -1,0 +1,31 @@
+.app{
+    padding: 10px;
+    display: flex;
+
+    .left-box{
+        width: 240px;
+        margin-right: 20px;
+        padding-left: 10px;
+    }
+
+    .right-box{
+        flex: 1;
+        .item-box{
+            display: flex;
+            margin-bottom: 10px;
+            &-canvas{
+                border: 1px solid #efefef;
+                padding: 10px;
+            }
+            .desc{
+                flex: 1;
+                margin-left: 20px;
+                color: rgb(56, 56, 56);
+                display: flex;
+                border-left: 5px solid #ffd4d4;
+                padding: 30px;
+                background: #f9f9f9;
+            }
+        }
+    }
+}
